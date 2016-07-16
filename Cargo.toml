@@ -1,0 +1,7 @@
+[package]
+name = "iron-router"
+version = "0.1.0"
+authors = ["Steven Allen <steven@stebalien.com>"]
+
+[dev-dependencies]
+iron = "*"
