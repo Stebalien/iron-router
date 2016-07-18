@@ -102,7 +102,7 @@
             @<span class='ident'>GET</span> <span class='ident'>search_contacts</span>;
         }
 
-        <span class='comment'>/* One branch allowed per level. Matches: `/contacts/:id` */</span>
+        <span class='comment'>/* One variable branch allowed per level. Matches: `/contacts/:id` */</span>
         :<span class='ident'>u64</span> <span class='comment'>/* id */</span> {
             @<span class='ident'>GET</span> <span class='ident'>get_contact</span>;
             @<span class='ident'>PUT</span> <span class='ident'>replace_contact</span>;
