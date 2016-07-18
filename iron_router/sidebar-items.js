@@ -1,0 +1,1 @@
+initSidebarItems({"macro":[["router!","The router macro. See the crate-level documentation."]]});
