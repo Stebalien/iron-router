@@ -54,7 +54,7 @@ router! {
             @GET search_contacts;
         }
 
-        /* One variable block allowed. Matches: `/contacts/:id` */
+        /* One variable branch allowed per level. Matches: `/contacts/:id` */
         :u64 /* id */ {
             @GET get_contact;
             @PUT replace_contact;
