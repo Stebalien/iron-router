@@ -65,5 +65,11 @@
 //! # fn main() {}
 //! ```
 
+pub extern crate iron;
+
 #[macro_use]
 mod macros;
+mod error;
+
+pub use error::RouterError;
+
